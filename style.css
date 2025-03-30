@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --main-padding:10px;
+    --main-margin:10px;
+}
+
+body{
+    background-image: url(purple-tree-stories-jy-1280x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 430px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.input{
+    padding: var(--main-padding);
+}
+
+.input input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: var(--main-padding);
+    margin-left: 40px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+.ch{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.ch label{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.forgot{
+    display: inline-block;
+    margin-left: 70px;
+    color: #fff;
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border: none;
+    /* font-size: 20px; */
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p span a{
+    color: #fff;
+    text-decoration: none;
+}
